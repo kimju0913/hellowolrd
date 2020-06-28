@@ -1,0 +1,151 @@
+<style>
+#titlebar, #antitleber {
+	border-top: 2px solid #ff6f6b;
+	border-bottom: 2px solid #ff6f6b;
+	height: 35px;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+#QNAdiv {
+	border: 3px solid #ff6f6b;
+	border-radius: 10px;
+	text-align: center;
+	align-content: center;
+	height: 1100px;
+	width: 850px;
+	margin: 30px auto;
+}
+
+#div_q_bno {
+	float: left;
+	width: 40px;
+	height: auto;
+}
+
+#div_q_menu {
+	float: left;
+	width: 80px;
+	height: auto;
+}
+
+#div_q_answer {
+	float: left;
+	width: 80px;
+	height: auto;
+}
+
+#div_q_content ,#div_an_content {
+	float: left;
+	width: 450px;
+	height: auto;
+}
+
+#div_q_name {
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#div_q_date {
+	float: right;
+	width: auto;
+	margin-right: 20px;
+	height: auto;
+}
+
+#check_on_off {
+	background-color: #F6F6F6;
+}
+
+#add_qna, #myQnA, #announce_btn, #question_btn , #myquestion_btn,
+#qna_btn{
+	font-size: 100%;
+	background-color: #ff6f6b;
+	width: 100px;
+	height: 50px;
+	color: white;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	border: 2px solid #ff6f6b;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+tr th {
+	background-color: #F6F6F6;
+	width: 80px;
+}
+
+tr td {
+	padding-left: 20px;
+}
+
+.btn {
+	font-size: 100%;
+	background-color: #ff6f6b;
+	width: 100px;
+	height: 50px;
+	color: white;
+	align-content: center;
+	margin-top: 5px;
+	margin-right: 10px;
+	border: 2px solid #ff6f6b;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#q_secret {
+	
+}
+
+#an_bno {
+	float: left;
+	text-align: center;
+	width: 40px;
+}
+
+#an_menu {
+	float: left;
+	text-align: center;
+	width: 72px;
+}
+
+#an_title {
+	float: left;
+	text-align: center;
+	width: 600px;
+}
+
+#an_date {
+	float: right;
+	margin-right: 5px;
+}
+
+#div_an_content {
+	float: left;
+	width: 500px;
+	text-align:center;
+	height: auto;
+	margin-left: 30px;
+}
+
+#an_content ,#q_content{
+
+
+
+height: 200px;
+width: 500px;
+resize: none;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+</style>
