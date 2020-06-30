@@ -164,9 +164,12 @@
 	float: left;
 	overflow-y: auto;
 }
-#sendListBoxWrapper{
- 	width: 560px;
- 	height: 180px;
+.sendListBoxWrapper{
+	
+ 	width: 580px;
+ 	height: 160px;
+ 	float: left;
+ 	
 }
 
 #pInfoWrapper{
@@ -353,7 +356,7 @@ button:hover {
   				<div id = "requestMsgAlert">
   					<textarea readonly="readonly" >${vo.message }</textarea>
   				</div>	
-  				수락하시겠습니까?<br>  	
+  				<br>  	
   				<button id = "btnRefuse" onclick = " refuseRequest('${vo.send_userid}') ">거절</button>
   				<button id = "btnApply" onclick = "acceptRequest('${vo.send_userid}')">수락</button>
                 <br><br>
