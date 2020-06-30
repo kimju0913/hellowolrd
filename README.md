@@ -61,3 +61,6 @@ This is the url of this page
 - Spring Framework
 - Jquery
 - JSP
+
+# 업데이트
+2020.06.30. > 일촌관리 화면에서 보낸 일촌 신청 목록이 겹쳐서 보이는 오류 개선
