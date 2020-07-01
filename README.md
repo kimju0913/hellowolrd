@@ -67,4 +67,4 @@ This is the url of this page
 
 
 
-2020.07.01 > 코드 리
+2020.07.01 > 코드 리팩토링 
