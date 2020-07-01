@@ -80,7 +80,7 @@
 		    <mapping path="/user/profilephoto"/>
 			<mapping path="/main/*"/>
 			<mapping path="/ntBoard/*"/>
-			<mapping path="/diaryboard/*"/>
+			<mapping path="/diaryboard/*"/> 
 			<mapping path="/gallery/*"/>
 			<mapping path="/frcboard/*"/>
 			<beans:ref bean = "AuthInterceptor"/>
