@@ -120,7 +120,7 @@ button:hover{
       <form id="ilChonPyeong${vo.frc_bno}">
         <input id="bno${vo.frc_bno }" name="frcList_bno" hidden="hidden" value="${vo.frc_bno }">
          · <a id="friendSayContent${vo.frc_bno}" >${vo.frc_content }</a>
-        (<a id="nickname${vo.nickname }">${vo.nickname }</a> <a href="#" id="user_name${vo.user_name}">${vo.user_name}</a>)
+        (<a id="nickname${vo.nickname }">${vo.nickname }</a> <a onclick="moveToFrMini('${vo.userid}')" href="#" id="user_name${vo.user_name}">${vo.user_name}</a>)
         <fmt:formatDate value="${vo.frc_date }" pattern="yyyy-MM-dd"
           var="frc_date" />
         <a id="frc_date${vo.frc_bno }">${frc_date }</a>
@@ -533,6 +533,14 @@ button:hover{
           min = min >= 10 ? min : '0' + min;
        return  year + '.' + month + '.' + day + ' ' + hour + ':' + min;
    } // end getFormatDate()
+   
+   //============================================= .user_name 클릭시=============================================================
+   function moveToFrMini(userid){
+	
+		window.parent.location.href = "/helloworld/world/mini-home-page?homeId=" + userid;
+	   
+   }
+	   
    
     </script>
 </body>
