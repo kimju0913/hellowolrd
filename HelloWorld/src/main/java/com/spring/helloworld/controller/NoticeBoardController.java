@@ -335,7 +335,7 @@ public class NoticeBoardController {
         
        
         
-        String fullPath = uploadPath + uploadedFolder + filecol;
+        String fullPath = uploadPath + File.separator + uploadedFolder + filecol;
          
         File file = new File(fullPath);
         
