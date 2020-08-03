@@ -51,7 +51,7 @@ li {
 <title>::공지사항::</title>
 </head>
 <body>
-
+	
 	<button id="register_announce" type="button">공지 사항 작성</button>
 
 

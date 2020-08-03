@@ -194,6 +194,12 @@ section {
    <script type="text/javascript">
       $(document).ready(
             function() {
+            	
+            	var loginId = ${loginId};
+            	if(loginId != "admin"){
+            		alert('비정상적인 접근입니다.');
+            		location.href("/helloworld");
+            	}
 
                $('#on-main-content').click(
                      function() {

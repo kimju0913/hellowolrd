@@ -130,7 +130,7 @@ button:hover {
   	<img id = "imgheaderlogo" src="${pageContext.request.contextPath}/resources/images/logo3_big.png">
   </div>
   
-  <c:if test = "${loginId == 'test' }">
+  <c:if test = "${loginId == 'admin' }">
     <h2>관리자 모드</h2>
   </c:if>
   
@@ -153,13 +153,13 @@ button:hover {
   	<p class = "pb">사람 찾기</p>
   	</button>
   	
-    <c:if test = "${loginId != 'test' }">
+    <c:if test = "${loginId != 'admin' }">
   	<button id = "btnCallCenter"><img  src="${pageContext.request.contextPath}/resources/images/callCenter.png"><br>
   	<p class = "pb">고객센터</p>
   	</button>
   	</c:if>
     
-    <c:if test= "${loginId == 'test' }">
+    <c:if test= "${loginId == 'admin' }">
     <button id = "btnAdmin"><img  src="${pageContext.request.contextPath}/resources/images/admin.png"><br>
     <p class = "pb">관리자 페이지</p>
     </button>

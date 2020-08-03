@@ -63,7 +63,8 @@
 	
 	<beans:bean id= "HomeSessionInterceptor" class = "com.spring.helloworld.interceptor.HomeSessionInterceptor"/>
 	<beans:bean id = "AuthInterceptor" class = "com.spring.helloworld.interceptor.AuthInterceptor"/>
-	
+	<beans:bean id = "AdminInterceptor" class = "com.spring.helloworld.interceptor.AdminInterceptor" />
+		
 	<!-- InterCeptor 가 가로챌 URL 매핑 설정 -->
 	<interceptors>
 		<interceptor>
@@ -74,6 +75,10 @@
 			<mapping path="/world/mini-home-page"/>
 			<beans:ref bean = "HomeSessionInterceptor"/>
 		</interceptor>
+	<interceptor>
+			<mapping path="/admin/*"/>
+			<beans:ref bean = "AdminInterceptor"/>
+		</interceptor>	
 	<interceptor>
 		    <mapping path="/user/mypage"/>
 		    <mapping path="/user/user-update"/>
